@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CharacterController : MonoBehaviour
+public class CharacterControllerScript : MonoBehaviour
 {
     private CharacterController cc;
 
