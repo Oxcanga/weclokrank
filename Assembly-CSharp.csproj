@@ -39,6 +39,7 @@
      <Compile Include="Assets/Scripts/CharacterConrollerScript.cs" />
      <Compile Include="Assets/Scripts/CameraController.cs" />
      <Compile Include="Assets/Scripts/CharacterScript.cs" />
+     <None Include="Assets/KodlandRunner/KenneyModels/Changelog.txt" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
