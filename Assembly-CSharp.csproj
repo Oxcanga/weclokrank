@@ -36,11 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Shift UI/Scripts/CustomInputField.cs" />
+     <Compile Include="Assets/Shift UI/Scripts/ButtonHandler.cs" />
      <Compile Include="Assets/Scripts/CharacterConrollerScript.cs" />
      <Compile Include="Assets/Scripts/CameraController.cs" />
      <Compile Include="Assets/Scripts/CharacterScript.cs" />
-     <Compile Include="Assets/Shift UI/Scripts/ButtonHandler.cs" />
-     <Compile Include="Assets/Shift UI/Scripts/CustomInputField.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
@@ -692,9 +692,6 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-        <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -721,6 +718,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
         <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
@@ -752,6 +752,12 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
         <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
@@ -766,12 +772,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-        <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
