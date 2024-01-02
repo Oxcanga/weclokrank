@@ -39,6 +39,7 @@
      <Compile Include="Assets/Scripts/CharacterConrollerScript.cs" />
      <Compile Include="Assets/Scripts/CameraController.cs" />
      <Compile Include="Assets/Scripts/CharacterScript.cs" />
+     <None Include="Assets/KodlandRunner/KenneyModels/Changelog.txt" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -669,6 +670,9 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -695,9 +699,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-        <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
         <HintPath>/Users/imac/Desktop/UnityProjects/WecloKrank/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
