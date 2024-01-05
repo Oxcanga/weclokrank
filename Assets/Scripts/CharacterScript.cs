@@ -27,7 +27,7 @@ public class CharacterScript : MonoBehaviour
         {
             animator.SetBool("isMoving", true); // Eğer karakter hareket ediyorsa "isMoving" animasyonunu başlatıyoruz
         }
-        else
+        else if (horizontal == 0 && vertical == 0)
         {
             animator.SetBool("isMoving", false); // Eğer karakter hareket etmiyorsa "isMoving" animasyonunu durduruyoruz
         }
