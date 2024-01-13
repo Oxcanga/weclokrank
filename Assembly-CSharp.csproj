@@ -36,7 +36,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Scripts/CharacterConrollerScript.cs" />
      <Compile Include="Assets/Scripts/CameraController.cs" />
      <Compile Include="Assets/Scripts/CharacterScript.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
